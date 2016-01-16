@@ -13,3 +13,7 @@ PRODUCT_NAME := cm_cprimeltemtr
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := cprimeltemtr
 PRODUCT_MANUFACTURER := samsung
+
+# Boot animation
+TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 800
