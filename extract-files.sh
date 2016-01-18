@@ -46,13 +46,13 @@ else
   fi
 fi
 
-BASE=../../../vendor/$VENDOR/cprimeltemtr/proprietary
+BASE=vendor/samsung/cprimeltemtr/proprietary
 rm -rf $BASE/*
 
-DEVBASE=../../../vendor/$VENDOR/$DEVICE/proprietary
+DEVBASE=../../../vendor/samsung/cprimeltemtr/proprietary
 rm -rf $DEVBASE/*
 
-extract ../../$VENDOR/cprimeltemtr/proprietary-files.txt $BASE
-extract ../../$VENDOR/$DEVICE/proprietary-files.txt $DEVBASE
+extract ../../samsung/cprimeltemtr/proprietary-files.txt $BASE
+extract ../../samsung/cprimeltemtr/proprietary-files.txt $DEVBASE
 
 ./setup-makefiles.sh
