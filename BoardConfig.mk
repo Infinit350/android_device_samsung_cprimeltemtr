@@ -12,7 +12,8 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
-TARGET_KERNEL_SOURCE := kernel/samsung/cprimeltemtr/cprimeltemtr_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/cprimeltemtr
+TARGET_KERNEL_CONFIG := kernel/samsung/cprimeltemtr/cprimeltemtr_defconfig
 
 TARGET_BOOTLOADER_BOARD_NAME := cprimeltemtr
 
@@ -30,3 +31,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PREBUILT_KERNEL := device/samsung/cprimeltemtr/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
+
+#twrp
+DEVICE_RESOLUTION :=480x800
