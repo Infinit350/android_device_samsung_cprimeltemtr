@@ -13,7 +13,7 @@ TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_KERNEL_SOURCE := kernel/samsung/cprimeltemtr
-TARGET_KERNEL_CONFIG := cprimeltemtr_defconfig
+TARGET_KERNEL_CONFIG := msm8916_defconfig
 
 TARGET_BOOTLOADER_BOARD_NAME := cprimeltemtr
 
